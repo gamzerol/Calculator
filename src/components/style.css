@@ -1,4 +1,4 @@
-.title {
+ {
     position: absolute;
   top: 10%;
   left: 50%;
@@ -81,4 +81,13 @@
 .button-group .reset-btn,
 .button-group .result-btn {
     background-color: #b2a2c4;
+}
+
+@media only screen and (max-width: 767px) {
+    .calculator {
+        width: 100%;
+    }
+    .title {
+        font-size: 30px;
+    }
 }
